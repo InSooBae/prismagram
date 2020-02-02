@@ -3,7 +3,7 @@ export default {
   Query: {
     userById: (_, args) => {
       const { id } = args;
-      return prisma.user({ id }).$fragment();
+      return prisma.user({ id });
     }
   }
 };

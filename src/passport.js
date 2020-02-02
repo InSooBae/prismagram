@@ -8,6 +8,7 @@ import { prisma } from '../generated/prisma-client';
 const jwtOption = {
   //Authorization 헤더에서 jwt 찾는 역할 {Authorization: 'Bearer TOKEN'} 헤더의 값으로 Bearer 이후의 토큰(TOKEN에서)이 입력될것
   jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
+  //랜덤 키젠 .env 파일에 넣음
   secretOrKey: process.env.JWT_SECRET
 };
 

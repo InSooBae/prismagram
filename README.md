@@ -4,4 +4,22 @@ Instagram clone with Express + Prisma + React and React Native
 
 ## User Strories
 
--[X] Log in (without Log out) -[X] Request Secret -[X] Confirm Secret (Login) -[X] Like / Unlike a photo -[X] Comment on a photo -[X] Search by user -[X] Search by location -[X] See user profile -[X] Follow / Unfollow User -[X] See My profile -[X] See the full Photo -[X] Edit my profile -[X] Upload photos -[X] Edit the photo (Delete) -[X] See the feed -[X] Send private Message -[X] See Room -[X] See Rooms -[X] Receive Message(Real time)
+- [x] Log in (without Log out)
+- [x] Request Secret
+- [x] Confirm Secret (Login)
+- [x] Like / Unlike a photo
+- [x] Comment on a photo
+- [x] Search by user
+- [x] Search by location
+- [x] See user profile
+- [x] Follow / Unfollow User
+- [x] See My profile
+- [x] See the full Photo
+- [x] Edit my profile
+- [x] Upload photos
+- [x] Edit the photo (Delete)
+- [x] See the feed
+- [x] Send private Message
+- [x] See Room
+- [x] See Rooms
+- [x] Receive Message(Real time)

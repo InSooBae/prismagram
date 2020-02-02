@@ -30,8 +30,9 @@ export default {
       if (!room) {
         throw Error('Room not found');
       }
+      const participants = await prisma.room({ id: room.id }).participants();
       //현재 상대와 만들어진 room에서 자기 자신을 제외한 상대를 filter함
-      const getTo = room.participants.find(
+      const getTo = participants.find(
         //자기 자신이 포함되있는거 빼고?
         participant => participant.id !== user.id
       );
