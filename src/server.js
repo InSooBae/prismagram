@@ -6,7 +6,7 @@ import './passport';
 import { authenticateJwt } from './passport';
 import { isAuthenticated } from './middlewares';
 import upload, { uploadMiddleware, uploadController } from './upload';
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 80;
 
 const server = new GraphQLServer({
   schema,
